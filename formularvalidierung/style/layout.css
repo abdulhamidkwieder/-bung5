@@ -1,0 +1,57 @@
+body {
+    background-color: #F0F0F0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.container {
+    width: 500px;
+    height: 700px;
+    margin: 6em auto 0 auto;
+    min-height: 20em;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+#senden {
+    margin: 2em auto 0 auto;
+}
+#logh1{
+    text-align: center;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin: 0em auto 0 auto;
+}
+.site-header {
+    padding: 2em 0em;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f1f1f0;
+}
+
+main {
+    padding: 10px 5px;
+    background-color: #F0F0F0;
+}
+
+.msg-error {
+    padding: 0.25em 1em;
+    border-radius: 4px;
+    background-color: rgb(172, 40, 40);
+    color: white;
+}
+
+pre {
+    display: block;
+    color: #CFDBEC;
+    background-color: #2F2F2F;
+
+    background-image: -webkit-repeating-linear-gradient(top, #444 0px, #444 22px, #2F2F2F 22px, #2f2f2f 44px);
+    background-image: -moz-repeating-linear-gradient(top, #444 0px, #444 22px, #2F2F2F 22px, #2f2f2f 44px);
+    background-image: repeating-linear-gradient(top, #444 0px, #444 22px, #2F2F2F 22px, #2f2f2f 44px);
+    font: normal 14px/22px Monaco, 'Courier New', Monospace;
+    padding: 0 1em;
+    overflow: auto;
+}
+
+
